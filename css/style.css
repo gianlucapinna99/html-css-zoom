@@ -1,0 +1,67 @@
+/* 
+----------
+RESET
+--------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+------------
+COMMON
+------------ */
+
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px auto;
+    min-width: 1470px;
+    max-width: 1470px;
+}
+
+h2{
+    color: white;
+    font-size: 15px;
+}
+
+.monitor{
+    width: 100vW;
+    height: 100vh;
+    background-color: black;
+}
+
+
+/* 
+----------
+MAIN
+---------- */
+
+.screen{
+    width: calc(100% / 7);
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.mini-container{
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    bottom: 5px;
+    background-color: rgb(128, 128, 128, 0.3);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.fa-microphone-slash{
+    font-size: 15px;
+}
